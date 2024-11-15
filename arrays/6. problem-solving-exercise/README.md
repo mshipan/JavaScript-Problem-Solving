@@ -74,27 +74,27 @@
 
 - Write a function that checks if all elements in an array meet a specific condition (every).
 
-## Problem 18:
+### Problem 18:
 
 - Write a function that fills part of an array with a specific value (fill).
 
-## Problem 19:
+### Problem 19:
 
 - Write a function that copies a part of an array to another location within the same array (copyWithin).
 
-## Problem 20:
+### Problem 20:
 
 - Write a function that flattens an array with nested arrays up to a specific depth (flat).
 
-## Problem 21:
+### Problem 21:
 
 - Write a function that uses flatMap to map each element in an array and flatten the result by one level.
 
-## Problem 22:
+### Problem 22:
 
 - Write a function that finds an element in an array using findLast that matches a certain condition.
 
-## Problem 23:
+### Problem 23:
 
 - Write a function that retrieves an element from an array at a specified index using the at method.
 
