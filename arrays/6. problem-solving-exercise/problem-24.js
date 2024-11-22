@@ -1,12 +1,12 @@
 // Given a sorted array, find two numbers whose sum equals a specified value.
 
-function equalToSum(sortedArray, target) {
+function equalToSum(array, target) {
   let left = 0, // শুরু পয়েন্টার
-    right = sortedArray.length - 1; // শেষ পয়েন্টার
+    right = array.length - 1; // শেষ পয়েন্টার
   while (left < right) {
-    let sum = sortedArray[left] + sortedArray[right];
+    let sum = array[left] + array[right];
     if (sum === target) {
-      return `[${left}, ${right}] (${sortedArray[left]} + ${sortedArray[right]} = ${target})`;
+      return `[${left}, ${right}] (${array[left]} + ${array[right]} = ${target})`;
     } else if (sum < target) {
       left++; // যোগফল ছোট হলে বাম পয়েন্টার ডান দিকে সরান
     } else {
@@ -35,7 +35,7 @@ console.log(equalToSum(array, 5));
 
 // 3. রিটার্ন স্টেটমেন্টে পরিবর্তন:
 //    - ইন্ডেক্স এবং সংখ্যাগুলোর মান স্ট্রিং আকারে রিটার্ন করা হয়েছে।
-// return `[${left}, ${right}] (${sortedArray[left]} + ${sortedArray[right]} = ${target})`;
+// return `[${left}, ${right}] (${array[left]} + ${array[right]} = ${target})`;
 
 // ---------------------------------------------------------------------------
 
