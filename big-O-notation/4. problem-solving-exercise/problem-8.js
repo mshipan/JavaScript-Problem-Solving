@@ -21,28 +21,28 @@ function mergeSort(arr) {
 }
 
 function merge(left, right) {
-  let sortedArr = [],
+  let arr = [],
     i = 0,
     j = 0;
 
   // দুটি সর্ট করা অ্যারে একত্রিত করে একটি সর্ট করা অ্যারে তৈরি করা
   while (i < left.length && j < right.length) {
     if (left[i] < right[j]) {
-      sortedArr.push(left[i]);
+      arr.push(left[i]);
       i++;
     } else {
-      sortedArr.push(right[j]);
+      arr.push(right[j]);
       j++;
     }
   }
 
   // অবশিষ্ট উপাদানগুলো একত্রিত করা
-  return [...sortedArr, ...left.slice(i), ...right.slice(j)];
+  return [...arr, ...left.slice(i), ...right.slice(j)];
 }
 
 const array = [38, 27, 43, 3, 9, 82, 10];
-const sortedArray = mergeSort(array);
-console.log(sortedArray);
+const array1 = mergeSort(array);
+console.log(array1);
 
 // ---------------------------------------------------------------------
 
