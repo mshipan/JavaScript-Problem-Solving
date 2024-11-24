@@ -2,9 +2,9 @@
 const mergeArrays = function (arr1, arr2) {
   const mergedArr = [...arr1, ...arr2];
   console.log(mergedArr);
-  const sortedArr = mergedArr.sort((a, b) => a - b);
+  const arr = mergedArr.sort((a, b) => a - b);
 
-  return sortedArr;
+  return arr;
 };
 
 const array1 = [2, 6, 3, 1, 5];
