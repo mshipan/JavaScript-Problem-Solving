@@ -1,4 +1,4 @@
-### String Manipulation Techniques
+# String Manipulation Techniques
 
 #### Problem 1: String Concatenation
 
@@ -38,7 +38,7 @@
 
 ---
 
-### Common String Operations and Methods
+# Common String Operations and Methods
 
 #### Problem 10: String Padding
 
